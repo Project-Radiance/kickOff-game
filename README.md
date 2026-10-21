@@ -1,4 +1,4 @@
-# Crystalized: Knockoff
+# Radiance: KickkOff
 Recreation of TubNet Knockout
 
 ## Gameplay
