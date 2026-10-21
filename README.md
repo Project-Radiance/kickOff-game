@@ -13,7 +13,7 @@ Knockoff is currently built for 1.21.6 Paper, This plugin may or may not work on
 
 Dependencies (You need to install these) <br>
 [FAWE (FastAsyncWorldEdit)](https://www.spigotmc.org/resources/fastasyncworldedit.13932/) <br>
-[Crystalized Essentials](https://github.com/Project-Crystalized/crystalized-essentials) <br>
+[Radiance Essentials](https://github.com/Project-Crystalized/crystalized-essentials) <br>
 [Crystalized Lobby plugin](https://github.com/Project-Crystalized/lobby_plugin) <br>
 [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/) <br>
 
@@ -25,7 +25,7 @@ Commands: <br>
 `/knockoff end` - manually end the game <br>
 
 ## Building Instructions
-Make sure you've installed JDK 21 from [here](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html). <br>
+Make sure you've installed JDK 25 from [here](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html). <br>
 
 Configuring Lobby Plugin for Knockoff:
 1. Knockoff Depends on the Lobby Plugin (linked above), Get the Lobby Plugin's source and open a terminal/cmd in the folder. <br>
