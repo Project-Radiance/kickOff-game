@@ -129,7 +129,7 @@ public class ScoreboardManager {
             }
         }
 
-        Component title = text("\uE12E ").color(NamedTextColor.WHITE).append(translatable("crystalized.game.knockoff.name").color(NamedTextColor.GOLD));
+        Component title = text("\uE12E ").color(NamedTextColor.WHITE).append(text("KickOff").color(NamedTextColor.GOLD));
         Objective obj = scoreboard.registerNewObjective("main", Criteria.DUMMY, title);
         obj.setDisplaySlot(DisplaySlot.SIDEBAR);
 
@@ -203,7 +203,7 @@ public class ScoreboardManager {
         }
 
         obj.getScore("0").setScore(0);
-        obj.getScore("0").customName(text("crystalized.cc ").color(TextColor.color(0xc4b50a)).append(text("(ServID)").color(NamedTextColor.GRAY)));
+        obj.getScore("0").customName(text("Radiance.Team").color(NamedTextColor.DARK_RED).append(text("(ServID)").color(NamedTextColor.GRAY)));
 
         Team RoundCount = scoreboard.registerNewTeam("RoundCount");
         RoundCount.addEntry("6");
@@ -267,7 +267,7 @@ class QueueScoreBoard{
     public QueueScoreBoard(Player player) {
         FloodgateApi floodgateapi = FloodgateApi.getInstance();
         Scoreboard scoreboard = Bukkit.getScoreboardManager().getNewScoreboard();
-        Component title = text("\uE12E ").color(NamedTextColor.WHITE).append(translatable("crystalized.game.knockoff.name").color(NamedTextColor.GOLD));
+        Component title = text("\uE12E ").color(NamedTextColor.WHITE).append(text("KickOff").color(NamedTextColor.GOLD));
         Objective obj = scoreboard.registerNewObjective("main", Criteria.DUMMY, title);
         obj.setDisplaySlot(DisplaySlot.SIDEBAR);
 
@@ -287,7 +287,7 @@ class QueueScoreBoard{
         obj.getScore("1").customName(text(""));
 
         obj.getScore("0").setScore(0);
-        obj.getScore("0").customName(text("crystalized.cc ").color(TextColor.color(0xc4b50a)).append(text("(ServID)").color(NamedTextColor.GRAY)));
+        obj.getScore("0").customName(text("Radiance.Team").color(NamedTextColor.DARK_RED).append(text("(ServID)").color(NamedTextColor.GRAY)));
 
         player.setScoreboard(scoreboard);
 

@@ -458,7 +458,7 @@ class TeamStatus {
 		}
 
 		if (Bukkit.getOnlinePlayers().size() == 1) {
-			Bukkit.getServer().sendMessage(text("1 player detected, To end the game, run \"/knockoff end\" as a player with op. The game will not end automatically due to player size"));
+			Bukkit.getServer().sendMessage(text("1 player detected, To end the game, run \"/kickoff end\" as a player with op. The game will not end automatically due to player size"));
 			return;
 		}
 

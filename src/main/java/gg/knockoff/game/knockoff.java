@@ -105,7 +105,7 @@ public final class knockoff extends JavaPlugin {
         Lobby_plugin.getInstance().doNametagsDespitePassive = true;
         //This is weird
         this.getLifecycleManager().registerEventHandler(LifecycleEvents.COMMANDS, commands -> {
-            LiteralArgumentBuilder<CommandSourceStack> command = Commands.literal("knockoff");
+            LiteralArgumentBuilder<CommandSourceStack> command = Commands.literal("kickoff");
             command.then(Commands.literal("end").requires(sender -> sender.getSender().hasPermission("minecraft.command.op")).executes(ctx -> {
                 if (knockoff.getInstance().gameManager != null) {
                     knockoff.getInstance().DevMode = false;

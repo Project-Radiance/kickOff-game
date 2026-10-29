@@ -1,16 +1,16 @@
-name: knockoff
+name: kickoff
 version: '1.0.0'
 main: gg.knockoff.game.knockoff
 #Updated the API to the latest version
 api-version: '26.2'
 depend: [Lobby_plugin, FastAsyncWorldEdit, Crystalized_Essentials, floodgate, packetevents]
-authors: [Project Crystalized Team]
+authors: [Team Radiance + CallumIsBad]
 prefix: Knockoff
 description: Recreation of TubNet's Knockout! Now open source and remade by Project Crystalized
 commands:
   knockoff:
-    description: "Commands for KnockOff"
-    usage: "/knockoff"
+    description: "Commands for KickOff"
+    usage: "/kickoff"
     aliases: [ ]
     permission: knockoff.commands
     permission-message: "[!] You don't have permission to run this command."

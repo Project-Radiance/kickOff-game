@@ -79,8 +79,8 @@ public class PlayerListener implements Listener {
 			p.sendPlayerListHeaderAndFooter(
 					// Header
 					text("\n")
-							.append(text("Crystalized: ").color(NamedTextColor.LIGHT_PURPLE)
-									.append(text("Knockoff").color(NamedTextColor.GOLD)))
+							.append(text("Project Radiance: ").color(NamedTextColor.DARK_RED)
+									.append(text("KickOff").color(NamedTextColor.GOLD)))
 							.append(text("\n")),
 
 					// Footer
@@ -102,7 +102,7 @@ public class PlayerListener implements Listener {
 			}
 			p.sendMessage(
 					text("\n")
-							.append(translatable("crystalized.game.knockoff.name").color(NamedTextColor.GOLD).append(text(" \uE12E").color(NamedTextColor.WHITE)))
+							.append(text("KickOff").color(NamedTextColor.GOLD).append(text(" \uE12E").color(NamedTextColor.WHITE)))
 							.append(text("\n").append(translatable("crystalized.game.knockoff.chat.tutorial").color(NamedTextColor.GRAY)))
 							.append(text("\n"))
 			);

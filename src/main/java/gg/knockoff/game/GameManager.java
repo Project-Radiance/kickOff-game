@@ -674,7 +674,7 @@ public class GameManager { //I honestly think this entire class could be optimis
                             }
                         }
                         Bukkit.getServer().sendMessage(text("")
-                                .append(text("\n").append(translatable("crystalized.game.knockoff.name").color(GOLD)).append(text(" \uE108").color(WHITE)))
+                                .append(text("\n").append(text("KickOff").color(GOLD)).append(text(" \uE108").color(WHITE)))
                                 .append(text("\n").append(translatable("crystalized.game.generic.gameresults").color(BLUE)))
                         );
                         if (!playerDatas.isEmpty()) {
@@ -848,8 +848,8 @@ public class GameManager { //I honestly think this entire class could be optimis
                 p.sendPlayerListHeaderAndFooter(
                         // Header
                         text("\n")
-                                .append(text("Crystalized: ").color(NamedTextColor.LIGHT_PURPLE)
-                                        .append(text("Knockoff").color(NamedTextColor.GOLD)))
+                                .append(text("Project Radiance: ").color(DARK_RED)
+                                        .append(text("KickOff").color(NamedTextColor.GOLD)))
                                 .append(text("\n")),
 
                         // Footer
@@ -1491,7 +1491,7 @@ class TabMenu {
         //Header
         p.sendPlayerListHeader(
                 text("\n")
-                        .append(text("Crystalized: ").color(LIGHT_PURPLE).append(text("Knockoff").color(GOLD)))
+                        .append(text("Project Radiance: ").color(DARK_RED).append(text("KickOff").color(GOLD)))
                         .append(text("\n"))
         );
 
