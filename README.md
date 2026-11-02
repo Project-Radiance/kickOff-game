@@ -22,8 +22,8 @@ This Plugin also supports Minecraft: Bedrock Edition through Geyser and the Floo
 You may need to build the plugin as we don't support GitHub releases, see Building Instructions <br>
 
 Commands: <br>
-`/knockoff start` - manually start the game <br>
-`/knockoff end` - manually end the game <br>
+`/kickoff start` - manually start the game <br>
+`/kickkoff end` - manually end the game <br>
 
 ## Building Instructions
 Make sure you've installed JDK 25 from [here](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html). <br>
