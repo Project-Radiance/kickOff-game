@@ -6,7 +6,8 @@ Recreation of TubNet Knockout
 You are dropped onto a map with generated sections, your goal is to punch other players off and be the last person standing.
 
 ## Contributors
-Cooltexture - Programming help
+CallumIsBad - Coded most of it
+MacoronineBononine - Added features and bug fixes
 
 ## How to use
 Knockoff is currently built for 1.21.6 Paper, This plugin may or may not work on newer or older versions, use incompatible versions at your own risk.
