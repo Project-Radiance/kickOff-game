@@ -7,6 +7,7 @@ You are dropped onto a map with generated sections, your goal is to punch other 
 
 ## Contributors
 CallumIsBad - Coded most of it
+
 MacoronineBononine - Added features and bug fixes
 
 ## How to use
